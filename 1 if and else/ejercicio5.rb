@@ -2,14 +2,12 @@
 # Para verificar la respuestas, puedes variar los valores de a y b.
 
 a = true
-b = true
+b = false
 
-if a == true
-  if b == true
-    puts 'Lograste A y B!'
-  else
-    puts 'Lograste A! Pero no B!'
-  end
+if a == true && b == true
+	puts 'Lograste A y B!'
+elsif a == true 
+	puts 'Lograste A! Pero no B!'
 else
-  puts 'No lograste A ni B!'
-end
+	puts 'No lograste ni A ni B!'
+end 
